@@ -1,1 +1,3 @@
 # VBA_Homework
+
+Going thru stock data and finding specfici tickers and total volume. Formatting the cells to show which percentages are positive and negative based off yearly change. Also found the greatest percent increase and decrease, as well as the greatest total volume. The biggest challenge was in 2015 when there was a specific stock that had 0 as it's starting price value, which threw my code off. I had to write a nested If statement for the percent change value to tell it that if the starting price <> (did not) equal 0 then to divide, else the percent change was equal to zero. This fixed the issue.
